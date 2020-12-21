@@ -1,0 +1,117 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}   
+
+html {
+    scroll-behavior: smooth;
+}
+
+#AboutMe {
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(#453f47, #a5694d);
+    width: 100vw;
+    height: 75vh;
+}
+
+#ProfilePic {
+    float: left;
+    position: relative;
+    height: min(18vw, 35vh);
+    width: min(18vw, 35vh);
+    border-radius: 50%;
+    margin-top: -28vh;
+    margin-left: 65vw;
+    margin-bottom: 5vh;
+}
+
+#AboutHeader {
+    color: white;
+    font-size: 50px;
+    margin-top: 25vh;   
+    margin-bottom: 5vh;
+    font-size: 60px;
+    text-align: center;
+}
+
+#AboutInfo {
+    text-align: center;
+    position: relative;
+    color: rgb(230, 230, 230);
+    font-size: 17px;
+    margin-left: 37vw;
+    margin-top: -3vh;
+    width: 25vw;
+    padding: 0;
+}
+
+#githubButton {
+    position: relative;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 151px;
+    margin-top: 65vh;
+    margin-left: 38vw;
+    transition-duration: 0.4s;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 1.3vh 1.5vw;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 17px;
+}
+
+
+#linkedinButton {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 151px;
+    margin-top: 65vh;
+    margin-left: 0px;
+    transition-duration: 0.4s;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 1.3vh 1.5vw; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    align-self: center;
+}
+
+
+#resumeButton {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 151px;
+    margin-top: 65vh;
+    margin-left: 151px;
+    margin-right: 10vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    transition-duration: 0.4s;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 1.3vh 1.5vw; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#githubButton:hover, #linkedinButton:hover, #resumeButton:hover {
+    background-color: #e7e7e7; 
+    color: black;
+    cursor:pointer
+}
+
+#githubButton:focus, #linkedinButton:focus, #resumeButton:focus {
+    outline: none;
+}
