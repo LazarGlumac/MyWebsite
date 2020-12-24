@@ -13,9 +13,9 @@ html {
 }
 
 #AboutMe {
-    background-image: linear-gradient(#453f47, #a5694d);
+    /*background-image: linear-gradient(#453f47, #a5694d);*/
     width: 100vw;
-    height: 900px;
+    height: 925px;
 }
 
 #ProfilePic {
@@ -32,7 +32,8 @@ html {
 
 #AboutHeader {
     position: relative;
-    color: white;
+    /* color: white; */
+    color: black;
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 60px;
@@ -49,7 +50,8 @@ html {
     right: 0; 
     margin-left: auto; 
     margin-right: auto;
-    color: rgb(230, 230, 230);
+    /* color: rgb(230, 230, 230); */
+    color: black;
     font-size: 17px;
     margin-top: 3vh;
     width: 30   vw;
@@ -66,7 +68,7 @@ html {
 
 #githubButton, #linkedinButton, #resumeButton {
     position: absolute;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
     background-color: #555555;
     border: none;
     color: white;
@@ -88,13 +90,15 @@ html {
 #linkedinButton {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-left: 151px;
+    width: 165px;
 }
 
 
 #resumeButton {
-    margin-left: 302px;
+    margin-left: 316px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    width: 160px;
 }
 
 #githubButton:hover, #linkedinButton:hover, #resumeButton:hover {
@@ -115,4 +119,10 @@ html {
     right: 0; 
     margin-left: auto; 
     margin-right: auto;
+}
+
+#Education {
+    background-image: linear-gradient( #a5694d, #453f47);
+    width: 100vw;
+    height: 900px;
 }
