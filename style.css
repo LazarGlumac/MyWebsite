@@ -12,6 +12,15 @@ html {
     text-align: center;
 }
 
+#PARALLAX {
+    background-image: url("resources/space3.jpg");
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #AboutMe {
     /*background-image: linear-gradient(#453f47, #a5694d);*/
     width: 100vw;
@@ -36,7 +45,7 @@ html {
     color: black;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    font-size: 60px;
+    font-size: 55px;
     left: 0;
     right: 0;
     margin-left: auto; 
@@ -54,7 +63,7 @@ html {
     color: black;
     font-size: 17px;
     margin-top: 3vh;
-    width: 30   vw;
+    width: 60vw;
     min-width: 250px;
     padding: 0;
 }
@@ -122,7 +131,57 @@ html {
 }
 
 #Education {
-    background-image: linear-gradient( #a5694d, #453f47);
+    background-image: white;
     width: 100vw;
     height: 900px;
+}   
+
+#EducationHeader {
+    position: relative;
+    /* color: white; */
+    color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 55px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
 }
+
+#EducationLogo {
+    width: 300px;
+}
+
+#EducationHistory {
+    font-size: 17px;
+    width: 900px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#AwardsHeader {
+    margin-top: 3vh;
+}
+
+#AwardsUnderline {
+    width: 150px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8vh;
+}
+
+#AwardsList {
+    width: 250px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 2vh;
+}
+
