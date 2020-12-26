@@ -13,7 +13,7 @@ html {
 }
 
 #PARALLAX {
-    background-image: url("resources/space3.jpg");
+    background-image: url("resources/space.jpg");
     min-height: 300px; 
     background-attachment: fixed;
     background-position: center;
