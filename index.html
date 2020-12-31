@@ -205,64 +205,68 @@
 
             <div id="ProjectContainer">
 
-                <div class = "myProjects">
-                    <div class = "slideCountText">1 / 3</div>
-                    <img src = "resources/space.jpg" style="width:100%">
+                <div class="myProjects">
+                    <div class="slideCountText">1 / 3</div>
+                    <img src="resources/space.jpg" style="width:100%">
                     <!-- <div class = "slideText">SLIDE 1 Text</div> -->
                 </div>
 
-                <div class = "myProjects">
-                    <div class = "slideCountText">2 / 3</div>
-                    <img src = "resources/space2.jpg" style="width:100%">
+                <div class="myProjects">
+                    <div class="slideCountText">2 / 3</div>
+                    <img src="resources/space2.jpg" style="width:100%">
                     <!-- <div class = "slideText">SLIDE 2 Text</div> -->
                 </div>
 
-                <div class = "myProjects">
-                    <div class = "slideCountText">3 / 3</div>
-                    <img src = "resources/space.jpg" style="width:100%">
+                <div class="myProjects">
+                    <div class="slideCountText">3 / 3</div>
+                    <img src="resources/space.jpg" style="width:100%">
                     <!-- <div class = "slideText">SLIDE 3 Text</div> -->
                 </div>
 
                 <a id="prevButton" onclick="incrementSlideCount(-1)">&#10094;</a>
                 <a id="nextButton" onclick="incrementSlideCount(1)">&#10095;</a>
-            
-            </div>
 
-            <div class = "projectCaptions">
-                HI
+                <div class = "projectCaption"> SLIDE 1</div>
+                <div class = "projectCaption"> SLIDE 2</div>
+                <div class = "projectCaption"> SLIDE 3</div>
+
+
             </div>
 
             <script>
 
                 var slideIndex = 1;
                 showSlide(slideIndex);
-        
+
                 function incrementSlideCount(x) {
                     showSlide(slideIndex += x);
                 }
-        
+
                 function currentSlide(x) {
                     showSlide(slideIndex = x);
                 }
-        
+
                 function showSlide(x) {
-        
+
                     var i;
                     var projects = document.getElementsByClassName("myProjects");
-        
+                    var captions = document.getElementsByClassName("projectCaption");
+
                     if (x > projects.length) { slideIndex = 1 }
                     if (x < 1) { slideIndex = projects.length }
                     for (i = 0; i < projects.length; i++) {
                         projects[i].style.display = "none";
+                        captions[i].style.display = "none"
                     }
-        
+
                     projects[slideIndex - 1].style.display = "block";
-                
+                    captions[slideIndex - 1].style.display = "block";
                 }
 
             </script>
 
         </div>
+
 
     </div>
 

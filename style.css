@@ -244,7 +244,6 @@ html {
     user-select: none;
 }
 
-
 #prevButton {
     left: 0;
     border-radius: 0 3px 3px 0;
@@ -259,20 +258,21 @@ html {
     background-color: rgba(0,0,0,0.8);
 }
 
-.slideText {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
 .slideCountText {
-    color: #f2f2f2;
+    color: white;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
 }
+
+.projectCaption {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 20px;
+    display: none;
+}
+
