@@ -15,6 +15,10 @@
 
 <body>
 
+    <div id = "NavBar">
+        THIS IS NAV
+    </div>
+    
     <div id="MAIN">
 
         <div id="AboutMe">
@@ -206,26 +210,146 @@
             <div id="ProjectContainer">
 
                 <div class="myProjects">
-                    <div class="slideCountText">1 / 3</div>
-                    <img src="resources/sportcred.png" style="width:100%">
+                    <img src="resources/sportcred.PNG" style="width:100%">
                 </div>
 
                 <div class="myProjects">
-                    <div class="slideCountText">2 / 3</div>
                     <img src="resources/socket.png" style="width:100%">
                 </div>
 
                 <div class="myProjects">
-                    <div class="slideCountText">3 / 3</div>
-                    <img src="resources/shell.png" style="width:100%">
+                    <img src="resources/shell.PNG" style="width:100%">
                 </div>
 
                 <a id="prevButton" onclick="incrementSlideCount(-1)">&#10094;</a>
                 <a id="nextButton" onclick="incrementSlideCount(1)">&#10095;</a>
 
-                <div class = "projectCaption"> SLIDE 1</div>
-                <div class = "projectCaption"> SLIDE 2</div>
-                <div class = "projectCaption"> SLIDE 3</div>
+                <div class="projectCaption">
+
+                    <div class="projectIcons">
+
+                        <a href="https://reactjs.org/" target="_blank">
+                            <img src="resources/react.svg" alt="ReactJS">
+                        </a>
+
+                        <a href="https://www.atlassian.com/software/jira" target="_blank">
+                            <img src="resources/jira.svg" alt="Jira">
+                        </a>
+
+                        <a href="https://www.oracle.com/ca-en/java/technologies/javase-downloads.html" target="_blank">
+                            <img src="resources/java.svg" alt="Java">
+                        </a>
+
+                        <a href="https://www.mongodb.com/" target="_blank">
+                            <img src="resources/mongo.svg" alt="MongoDB">
+                        </a>
+
+                        <a href="https://www.guru99.com/restful-web-services.html" target="_blank">
+                            <img src="resources/http.svg" alt="HTTP">
+                        </a>
+
+                        <a href="https://git-scm.com/" target="_blank">
+                            <img src="resources/git.svg" alt="GIT">
+                        </a>
+
+                    </div>
+
+                    <br>
+
+                    <p class="projectText">
+
+                        Sportcred is a sports fanatic's dream web application
+                        <br><br>
+                        - including a live chat, current
+                        scores and results from NBA games, a scoring system used to track sports knowledge,
+                        a debates and analysis section used to compare and share your thoughts with others, and other
+                        sport-related features.
+                        <br><br>
+                        This was a full stack development project, done in a team of 7 members over a period of 2 months
+                        using an Agile development process.
+                        <br><br>
+                        The following technologies were used; Jira, ReactJS, Java, MongoDB, RESTful services.
+
+                    </p>
+
+
+                </div>
+
+                <div class="projectCaption">
+
+                    <div class="projectIcons">
+
+
+                        <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+                            <img src="resources/c.svg" alt="C">
+                        </a>
+
+                        <a href="https://www.cs.dartmouth.edu/~campbell/cs60/socketprogramming.html" target="_blank">
+                            <img src="resources/socket.svg" alt="Socket Server">
+                        </a>
+
+                        <a href="https://www.python.org/" target="_blank">
+                            <img src="resources/python.svg" alt="Python">
+                        </a>
+
+
+
+                    </div>
+
+                    <br>
+
+                    <p class="projectText">
+
+                        This chat server is a multi-user real-time chat platform developed in C.
+                        <br><br>
+                        This server uses custom runtime arguments to determine which port to run on, and I/O
+                        multiplexing to handle multiple simultaneous requests.
+                        <br><br>
+                        The server uses EPOLL functions in order to handle available clients, and continuously process
+                        data as well as socket connections to connect/handle clients.
+
+                    </p>
+
+                </div>
+
+                <div class="projectCaption">
+
+                    <div class="projectIcons">
+
+                        <a href="https://www.oracle.com/ca-en/java/technologies/javase-downloads.html" target="_blank">
+                            <img src="resources/java.svg" alt="Java">
+                        </a>
+
+                        <a href="https://subversion.apache.org/" target="_blank">
+                            <img src="resources/svn.svg" alt="SVN">
+                        </a>
+
+                        <a href="https://junit.org/junit5/" target="_blank">
+                            <img src="resources/junit.svg" alt="JUnit">
+                        </a>
+
+                    </div>
+
+                    <br>
+
+                    <p class="projectText">
+
+                        JavaMockShell is a (mock) shell with over 18 terminal commands, incorporating redirection and a
+                        mock file system for files to be created, saved, and displayed.
+                        <br><br>
+                        This project implemented numerous design patterns including Singleton, Factory Methods, and
+                        Dependency Injection.
+                        <br><br>
+                        This was developed solely in Java, and a team of 4 members using a strict Agile
+                        scrum-development process.
+                        <br><br>
+                        This project also includes a set of exhaustive JUnit tests for each command to ensure
+                        correctness.
+
+                    </p>
+
+
+                </div>
 
 
             </div>
@@ -264,8 +388,12 @@
 
         </div>
 
+        <div id = "Footer">
+            <p id = "FooterText">Designed By: Lazar Glumac © 2020</p>
+        </div>
 
     </div>
+
 
 
 </body>

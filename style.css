@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+#NavBar {
+    position: fixed;
+    left: 50px;
+    top: 100px;
+}
+
 #MAIN {
     text-align: center;
 }
@@ -31,7 +37,6 @@ html {
 }
 
 #AboutMe {
-    /*background-image: linear-gradient(#453f47, #a5694d);*/
     width: 100vw;
     height: 925px;
 }
@@ -50,7 +55,6 @@ html {
 
 #AboutHeader, #EducationHeader, #ProjectsHeader {
     position: relative;
-    /* color: white; */
     color: black;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -68,7 +72,6 @@ html {
     right: 0; 
     margin-left: auto; 
     margin-right: auto;
-    /* color: rgb(230, 230, 230); */
     color: black;
     font-size: 17px;
     margin-top: 3vh;
@@ -217,7 +220,7 @@ html {
 #Projects {
     background-image: white;
     width: 100vw;
-    height: 800px;
+    height: 1100px;
 }
 
 #ProjectContainer {
@@ -228,8 +231,8 @@ html {
 
 .myProjects {
     display: none;
-    width: 1000px;
-    height: 700px;
+    max-width: 1000px;
+    max-height: 660px;
 }
 
 #prevButton, #nextButton {
@@ -263,21 +266,39 @@ html {
     color:black;
 }
 
-.slideCountText {
-    color: white;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
 .projectCaption {
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     color: black;
     font-size: 20px;
     display: none;
 }
 
+.projectIcons > a {
+    text-decoration: none;
+}
+
+.projectIcons > a > img {
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+.projectText {
+    font-size: 16px;
+}
+
+#Footer {
+    margin-top: 50px;
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    background-color: #555555;
+    color: white;
+    line-height: 100px
+}
