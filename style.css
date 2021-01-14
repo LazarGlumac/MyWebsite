@@ -13,6 +13,7 @@ html {
     left: 50px;
     top: 30vh;
     z-index: 1;
+    text-decoration: none;
 }
 
 #NavBar > a {
@@ -24,6 +25,8 @@ html {
     font-size: 50px;
     margin-top: 50px;
     transition:all 0.5s;
+    text-decoration: none;
+    color: black;
 }
 
 #NavBar > a > i:hover {
@@ -249,7 +252,7 @@ html {
     display: none;
     max-width: 1000px;
     max-height: 660px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #prevButton, #nextButton {
