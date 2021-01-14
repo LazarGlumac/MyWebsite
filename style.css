@@ -11,7 +11,23 @@ html {
 #NavBar {
     position: fixed;
     left: 50px;
-    top: 100px;
+    top: 30vh;
+    z-index: 1;
+}
+
+#NavBar > a {
+    display: block;
+    text-decoration: none;
+}
+
+#NavBar > a > i {
+    font-size: 50px;
+    margin-top: 50px;
+    transition:all 0.5s;
+}
+
+#NavBar > a > i:hover {
+    font-size: 100px
 }
 
 #MAIN {
@@ -233,15 +249,15 @@ html {
     display: none;
     max-width: 1000px;
     max-height: 660px;
+    margin-bottom: 50px;
 }
 
 #prevButton, #nextButton {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 35%;
     width: auto;
     padding: 16px;
-    margin-top: auto;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -270,7 +286,6 @@ html {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     color: black;
     font-size: 20px;
     display: none;
@@ -285,6 +300,12 @@ html {
     height: 50px;
     width: 50px;
     display: inline;
+    transition:all 0.5s;
+}
+
+.projectIcons > a > img:hover {
+    height: 100px;
+    width: 100px;
 }
 
 .projectText {
